@@ -31,7 +31,9 @@ int main(int argc, const char **argv){
     cuadroVacio = al_load_bitmap("Imagenes/cuadroVacio.png");
     cuadro_X = al_load_bitmap("Imagenes/cuadroO.png");
     cuadro_O = al_load_bitmap("Imagenes/cuadroX.png");
-    al_set_target_bitmap();
+    al_set_target_bitmap(cuadroVacio);
+    al_set_target_bitmap(cuadro_X);
+    al_set_target_bitmap(cuadro_O);
     /*Registrar eventos*/
     al_register_event_source(evento, al_get_display_event_source(ventana));
     al_register_event_source(evento, al_get_mouse_event_source());
@@ -46,11 +48,6 @@ int main(int argc, const char **argv){
         if(ev.type == ALLEGRO_EVENT_DISPLAY_CLOSE)
             break;
     }
-
-
-
-
-
 
 
     /*Destruir*/
