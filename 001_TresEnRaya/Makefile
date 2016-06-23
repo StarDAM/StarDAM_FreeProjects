@@ -6,7 +6,7 @@ tresEnRaya:	juego.o tresEnRaya.o
 juego.o:	juego.cpp juego.h
 	$(CC) -c juego.cpp
 tresEnRaya.o:	tresEnRaya.cpp juego.h
-	$(CC) -o tresEnRaya.cpp
+	$(CC) -c tresEnRaya.cpp
 
 .PHONY: clean
 
