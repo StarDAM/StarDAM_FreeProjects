@@ -1,0 +1,8 @@
+//Cargar sprites, allegro...
+//Colocar los cuadros vacíos ordenados en el centro de la pantalla
+//Establecer los jugadores
+//Hacer un random para ver qué jugador empieza
+//Mostrar a quien le toca en cada turno
+//Establecer los turnos y el dibujo a cada cual
+//Si se pone ficha, pasar de turno
+//Si se ha hecho tres en raya, finalizar el juego

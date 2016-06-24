@@ -9,4 +9,6 @@ typedef struct Cuadro{
     ALLEGRO_BITMAP *img;
 }Cuadro;
 
+extern void iniciarCuadros();
+
 #endif

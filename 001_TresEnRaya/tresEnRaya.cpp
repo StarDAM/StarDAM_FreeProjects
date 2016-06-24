@@ -40,6 +40,7 @@ int main(int argc, const char **argv){
     al_register_event_source(evento, al_get_timer_event_source(reloj));
     /*Iniciar*/
     al_start_timer(reloj);
+    iniciarCuadros();
     /*BUCLE*/
     while(1){
         ALLEGRO_EVENT ev;
